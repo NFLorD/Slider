@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Sliders, les mondes parallèles ;-)</h1>
+      <a href="#" id="toolbar-toggle">
+        <i class="fas fa-arrow-down"></i> Barre d'outils
+      </a>
+      <nav class="toolbar hidden">
+        <ul>
+          <li>
+            <button id="slider-previous">
+              <i class="fas fa-backward"></i>
+            </button>
+          </li>
+          <li>
+            <button id="slider-toggle"><i class="fas fa-play"></i></button>
+          </li>
+          <li>
+            <button id="slider-next"><i class="fas fa-forward"></i></button>
+          </li>
+          <li>
+            <button id="slider-random"><i class="fas fa-random"></i></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure id="slider" class="slider">
+        <div><img src="images/1.jpg" alt="" /></div>
+        <figcaption>I'm a street artist</figcaption>
+      </figure>
+    </main>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
